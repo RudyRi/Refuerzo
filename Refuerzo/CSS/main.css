@@ -7,7 +7,23 @@
     
 }
 
+body{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #cbf9ff;
+}
+
 .navbar{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.item{
     font-family: 'Fredoka', sans-serif;
 }
 
