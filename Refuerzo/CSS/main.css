@@ -63,7 +63,7 @@ body{
     text-shadow: rgba(255, 255, 255, 0.5) 1px 1px;
 }
 
-.hero{
+.hero-background{
     background-image: url(https://www.lavanguardia.com/files/image_449_220/uploads/2023/05/03/64521711f1fe5.jpeg);
     height: 90vh;
     width: 100%;
@@ -73,4 +73,65 @@ body{
     font-family: 'Fredoka', sans-serif;
     flex-direction: column;
     align-items: flex;
+}
+.hero{
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-family: 'Fredoka', sans-serif;
+    align-items: center;
+}
+
+.hero-text{
+    text-align: center;
+    height: 40%;
+    padding: 20px;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-size:2vw;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: #cbf9ff; /* Green */
+    margin-top: 20px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    box-shadow: 2px 2px 2px;
+    border-radius: 50px;
+}
+
+.footer{
+    height:10%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    background-color: #cbf9ff;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px;
+    z-index: 998;
+    bottom: 0;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+.social-images{
+    align-items: flex-end;
+    height: 2vw;
+    object-fit: contain;
+    padding: 0 20px;
+}
+
+.footer-text{
+    width: 100%;
 }
