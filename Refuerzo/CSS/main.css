@@ -27,8 +27,8 @@ body{
     font-family: 'Fredoka', sans-serif;
     color: white;
     font-weight: 700;
-    font-size: 25px;
-    text-shadow: rgba(12, 12, 12, 0.8) 1px 3 px;
+    font-size: 36px;
+    text-shadow: rgba(12, 12, 12, 0.8) 3px 2px;
 }
 
 .navbar{
