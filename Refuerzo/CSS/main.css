@@ -16,7 +16,19 @@ body{
     align-items:center;
     justify-content: space-between;
     padding: 20px;
+    margin: 0;
     background-color: #cbf9ff;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px;
+}
+
+.title-ecommerce{
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: rgba(12, 12, 12, 0.8) 1px 3 px;
 }
 
 .navbar{
@@ -26,4 +38,21 @@ body{
 .item{
     font-family: 'Fredoka', sans-serif;
 }
+.navbar-list li{
+    padding: 0 20px;
+    list-style: none;
+}
+.navbar-list li a{
+    text-decoration: none;
+    color: black;
+}
 
+.navbar-list li a:hover{
+    color: #04698a;
+    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px;
+}
+
+.hero{
+    background-image: url(https://www.lavanguardia.com/files/image_449_220/uploads/2023/05/03/64521711f1fe5.jpeg);
+    height: 90vh;
+}
